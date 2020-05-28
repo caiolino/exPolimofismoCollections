@@ -1,0 +1,13 @@
+package animaisPolimorfismo;
+
+public class main {
+
+	public static void main(String[] args) {
+
+		Cachorro dog = new Cachorro("maju",3);
+		System.out.println(dog.getSom());
+		dog.fazerSom();
+
+	}
+
+}

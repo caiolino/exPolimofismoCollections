@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/home/caio/Gem/exPolimofismoCollections/.metadata/.plugins/org.eclipse.jdt.core
+3153490920.index
+264156280.index
+855895413.index
+4283524564.index
+3487351938.index

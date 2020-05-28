@@ -1,0 +1,25 @@
+package animaisPolimorfismo;
+
+public class Cachorro extends Animal {
+	private String movimento;
+	
+	public Cachorro() {
+		super();
+	}
+	
+	public Cachorro(String nome, int idade) {
+		super(nome, idade);
+		super.setSom("teste");
+
+	}
+
+	public void fazerSom() {
+		System.out.println(this.som);
+	}
+	
+	public void mover() {
+		this.movimento = "correndo";
+		System.out.println(this.movimento);
+	}
+		
+}

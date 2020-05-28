@@ -1,0 +1,10 @@
+package animaisPolimorfismo;
+
+public class Cachorro extends Animal {
+	private String movimento;
+	
+	public void fazerSom() {
+		this.som = "Latido";
+		System.out.println(this.som);
+	}
+}

@@ -1,0 +1,16 @@
+package animaisPolimorfismo;
+
+public class main {
+
+	public static void main(String[] args) {
+
+		Cachorro dog = new Cachorro("maju",3);
+		Gato cat = new Gato("Lyra",1);
+		
+		Veterinario vet = new Veterinario();
+		
+		vet.examinar(dog);
+		vet.examinar(cat);
+	}
+
+}
